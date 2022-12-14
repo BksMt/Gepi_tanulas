@@ -18,5 +18,5 @@ if __name__ == '__main__':
   wind= st.number_input('Wind')
   weather= st.number_input('Weather')
   prediction = weather_prediction([[prec, min, wind, weather]])
-  if st.button('Predict'):
+  if st.button('Predict max temperature'):
     st.success(prediction)
